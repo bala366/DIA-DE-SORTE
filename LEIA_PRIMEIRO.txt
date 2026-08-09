@@ -1,0 +1,34 @@
+DIA DE SORTE CAMPEÃO — PROJETO REFEITO E CORRIGIDO
+
+ESTRUTURA DO ZIP:
+.github
+app
+build.gradle.kts
+gradle.properties
+settings.gradle.kts
+LEIA_PRIMEIRO.txt
+
+Tudo está diretamente na raiz do ZIP.
+
+O fluxo também ficou mais resistente:
+se por engano o projeto for colocado dentro de uma pasta externa no GitHub,
+ele localiza automaticamente o settings.gradle.kts e compila na pasta correta.
+
+MÓDULOS:
+1. Números Campeões
+2. Duplas e Trios
+3. Perímetro e Evolução
+4. Mês da Sorte
+5. Campeão Geral
+
+TODOS:
+- geram 7 números
+- mostram Mês da Sorte
+- mostram volante 01–31
+- geram PDF colorido marrom
+- salvam em Downloads/DIA_DE_SORTE_PDF
+
+COMPILAÇÃO:
+Java 17
+Gradle 8.9
+Módulo app
